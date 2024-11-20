@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/THUCAVT.png";
 import { motion } from "framer-motion";
 
 // Animation container definition
@@ -53,6 +53,7 @@ const Hero = () => {
             <motion.img
               src={profilePic}
               alt="Duy Thuc"
+              className="rounded-2xl"
               variants={container(0.8)} // Animation delay
               initial="hidden"
               animate="visible"

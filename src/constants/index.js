@@ -1,76 +1,57 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/ANHPRO1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate programmer specializing in web applications and artificial intelligence. I focus on leveraging technology to optimize business performance and management efficiency. With my skills and experience, I aim to deliver practical, innovative solutions and continuously refine my craft to meet evolving business needs.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I studied Software Engineering, where I gained foundational knowledge in programming, system design, and database management. During my studies, I worked on various projects, including web application development and AI-based sentiment analysis, which honed my skills in full-stack development and problem-solving. My experience as an intern and freelancer allowed me to analyze business requirements, design systems, and implement practical solutions, preparing me to contribute effectively to real-world projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Jan 2024 - July 2024",
+    role: "Full Stack Developer cum Business Analyst Intern",
+    company: "People's Committee of Ward 16, District 4",
+    description: `Collect and analyze business requirement specifications.
+                  Write documentation and present flow diagrams, database schemas, and programming activity diagrams.
+                  Full-stack development of website features.
+                  Support website deployment.
+`,
+    technologies: ["Javascript", "React.js", "Vue.Js", "MSSQL"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "July 2023 - Now",
+    role: "Full Stack Developer Remote",
+    company: "Remote freelancer",
+    description: `•	Research documentation, review source code, and learn about the technologies used in the project.
+	Fix frontend-related bugs.
+	Add new database queries as needed for each function.
+	Write documentation to update the implementation process for each feature.
+`,
+    technologies: ["HTML5", "CSS3", "Python", "MSSQL", "NodeJs"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "The website Electronic Information Portal of the Youth Union, Ward 16, District 4",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "The Electronic Information Portal of the Youth Union, Ward 16, District 4 is an online platform designed for the youth community in the area. It provides access to various information, activities, and services related to the local community. I designed a search functionality for the portal by gathering user requirements, creating specifications, and developing the database and UI. After implementation, the feature received positive feedback from users.",
+    technologies: ["Vue.js", "C# .NET Core", "Microsoft SQL Server"],
+    website: "https://doan.p16q4.vn/"
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Binh Thuan Ward, District 7, Ho Chi Minh ",
+  phoneNo: "+84 833 685 950 ",
+  email: "ledinhduythuc510@gmail.com",
+};
+// index.js hoặc constants.js
+export const SOCIAL_LINKS = {
+  linkedin: "https://www.linkedin.com/in/duy-thuc-le-dinh-b081b8309/",
+  github: "https://github.com/yourprofile",
+  instagram: "https://www.instagram.com/therealthuzt.dd/",
+  twitter: "https://twitter.com/yourprofile",
 };

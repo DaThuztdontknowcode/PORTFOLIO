@@ -14,8 +14,8 @@ const Projects = () => {
             <div className="w-full lg:w-1/4">
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={300}
+                height={300}
                 alt={project.title}
                 className="mb-6 rounded"
               />
@@ -36,6 +36,18 @@ const Projects = () => {
                     {tech}
                   </span>
                 ))}
+              </div>
+
+              {/* Visit Website Button */}
+              <div className="mt-4">
+                <a
+                  href={project.website} // Link to the project website
+                  target="_blank" // Opens in a new tab
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 py-2 mt-4 text-white bg-gray-600 rounded-lg text-sm font-semibold hover:bg-gray-700 transition duration-300"
+                >
+                  Visit My Website
+                </a>
               </div>
             </div>
           </div>

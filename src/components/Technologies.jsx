@@ -35,14 +35,7 @@ const Technologies = () => {
         </motion.div>
 
         {/* Motion for .NET Core icon */}
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiDotnet className="text-7xl text-purple-500" />
-        </motion.div>
+
 
         {/* Motion for Microsoft SQL Server icon */}
         <motion.div

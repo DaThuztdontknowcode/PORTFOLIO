@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/ANHPRO1.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/ANHPRO2.png";
+
+import dtbproject1 from "../assets/projects/dtbproject1.jpg"; 
+import demopro2 from "../assets/projects/ANHDEMOPRO2.png"
 
 export const HERO_CONTENT = `I am a passionate programmer specializing in web applications and artificial intelligence. I focus on leveraging technology to optimize business performance and management efficiency. With my skills and experience, I aim to deliver practical, innovative solutions and continuously refine my craft to meet evolving business needs.`;
 
@@ -17,7 +18,7 @@ export const EXPERIENCES = [
                   Full-stack development of website features.
                   Support website deployment.
 `,
-    technologies: ["Javascript", "React.js", "Vue.Js", "MSSQL"],
+    technologies: ["Javascript", "Node.js", "MSSQL"],
   },
   {
     year: "July 2023 - Now",
@@ -28,17 +29,33 @@ export const EXPERIENCES = [
 	Add new database queries as needed for each function.
 	Write documentation to update the implementation process for each feature.
 `,
-    technologies: ["HTML5", "CSS3", "Python", "MSSQL", "NodeJs"],
+    technologies: ["HTML5", "CSS3","React.js", "Python", "MSSQL", "Node.js"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "The website Electronic Information Portal of the Youth Union, Ward 16, District 4",
+    title: "Website Information Portal of the Youth Union, Ward 16, District 4",
+    dtb: "Database design",
     image: project1,
+    dtbimage: dtbproject1,
+    dtbdescr:
+      "The following is the ERD for the search function, which has been simplified.",
     description:
-      "The Electronic Information Portal of the Youth Union, Ward 16, District 4 is an online platform designed for the youth community in the area. It provides access to various information, activities, and services related to the local community. I designed a search functionality for the portal by gathering user requirements, creating specifications, and developing the database and UI. After implementation, the feature received positive feedback from users.",
-    technologies: ["Vue.js", "C# .NET Core", "Microsoft SQL Server"],
+      "The Electronic Information Portal of the Youth Union, Ward 16, District 4 is an online platform designed for the youth community in the area. It provides access to various information, activities, and services related to the local community. ",
+    technologies: ["Vue.js", "C# .NET Core","Node.js", "Microsoft SQL Server"],
+    website: "https://doan.p16q4.vn/"
+  },
+  {
+    title: "Sentiment Analysis and Food Review Analysis for Search Enhancement",
+    dtb: "App Demo",
+    image: project2,
+    dtbimage: demopro2,
+    dtbdescr:
+      "When searching for a keyword, it will display the positive rating of the restaurant based on customer feedback. The data is calculated by extracting information from Yelp, processed in Python, and then returned to the web app, making it easy for restaurant managers to use.",
+    description:
+"This web application is designed to help restaurants manage customer feedback efficiently.By integrating intelligent keyword search functionality, the system enables restaurants to improve the quality of their products and services through data-driven analysis of customer feedback." ,
+    technologies: ["React.js", "Node.js", "MySQL", "Python"],
     website: "https://doan.p16q4.vn/"
   },
 ];

@@ -56,7 +56,7 @@ export const PROJECTS = [
     description:
 "This web application is designed to help restaurants manage customer feedback efficiently.By integrating intelligent keyword search functionality, the system enables restaurants to improve the quality of their products and services through data-driven analysis of customer feedback." ,
     technologies: ["React.js", "Node.js", "MySQL", "Python"],
-    website: "https://doan.p16q4.vn/"
+    website: "https://drive.google.com/file/d/12_74nuoO4yKf4Gf9cCu4o6_fUQkTen1W/view?usp=sharing"
   },
 ];
 
